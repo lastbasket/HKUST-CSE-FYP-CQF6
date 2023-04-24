@@ -4,6 +4,15 @@ HKUST CSE 2023 final year project for end-to-end 3D dog reconstruction from sing
 **About**
 HKUST CSE FYP CQF-6 
 
+<p align="center">
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori_wo_mask.png" width="120"/>
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori.png" width="120"/> 
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_pred_mask.png" width="120"/>
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_rgb.png" width="120"/>
+
+  <em>From left to right: original input, masked input, predicted segmentatino, predicted 3D dog</em>
+</p>
+
 **Dependencies**
 1. Python 3.7.10
 2. Pytorch 1.9.0+cu111
@@ -17,7 +26,7 @@ HKUST CSE FYP CQF-6
 **Download datasets**
 * [Download link](https://hkustconnect-my.sharepoint.com/:u:/g/personal/yhuangdl_connect_ust_hk/EWEU3HaiimpFrheh4cUuDz8Bb_CtMfouG6TLZJlO5VOWXw?e=j3GhVG)
 
-Extract to 'Coarse-to-fine-3D-Animal/data' 
+Extract to 'HKUST-CSE-FYP-CQF6/data' 
 
 **Pretrained Models**
     
