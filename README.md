@@ -5,12 +5,12 @@ HKUST CSE 2023 final year project for end-to-end 3D dog reconstruction from sing
 HKUST CSE FYP CQF-6 
 
 <p align="center">
-  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori_wo_mask.png" width="120"/>
-  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori.png" width="120"/> 
-  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_pred_mask.png" width="120"/>
-  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_rgb.png" width="120"/>
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori_wo_mask.png" width="150"/>
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_ori.png" width="150"/> 
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_pred_mask.png" width="150"/>
+  <img src="images/n02087394-Rhodesian_ridgeback_n02087394_10591_rgb.png" width="150"/>
 
-  <em>From left to right: original input, masked input, predicted segmentatino, predicted 3D dog</em>
+  <em>From left to right: original input, masked input, predicted segmentation, predicted 3D dog</em>
 </p>
 
 **Dependencies**
