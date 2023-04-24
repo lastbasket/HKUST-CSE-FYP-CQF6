@@ -16,6 +16,12 @@ HKUST CSE FYP CQF-6
 
 Extract to 'Coarse-to-fine-3D-Animal/data' 
 
+**Pretrained Models**
+    
+The pretrained model for gernerating geometry for neural texture field.
+
+* [Download pretrained stage 3 (without texture decoder)](https://drive.google.com/file/d/1q_VIWcyUgrr4FxhDTEpX8fKdJQ-2hDLH/view?usp=sharing)
+  
 **Demo**
 
 * Train the texture field with any image.
@@ -115,3 +121,49 @@ VoGE                0.2.0
 wheel               0.37.1
 yacs                0.1.8
 ```
+
+## Acknowledgements
+This work was completed in relation to the paper[Coarse-to-fine Animal Pose and Shape Estimation](https://arxiv.org/abs/2111.08176):
+```
+@article{li2021coarse,
+  title={Coarse-to-fine animal pose and shape estimation},
+  author={Li, Chen and Lee, Gim Hee},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={11757--11768},
+  year={2021}
+}
+```
+
+and [Creatures Great and SMAL: Recovering the shape and motion of animals from video](https://arxiv.org/abs/1811.05804):
+```
+@inproceedings{biggs2018creatures,
+  title={{C}reatures great and {SMAL}: {R}ecovering the shape and motion of animals from video},
+  author={Biggs, Benjamin and Roddick, Thomas and Fitzgibbon, Andrew and Cipolla, Roberto},
+  booktitle={ACCV},
+  year={2018}
+}
+```
+
+and [Who Left the Dogs Out? 3D Animal Reconstruction with Expectation Maximization in the Loop](https://arxiv.org/abs/2007.11110):
+```
+@inproceedings{biggs2020wldo,
+  title={{W}ho left the dogs out?: {3D} animal reconstruction with expectation maximization in the loop},
+  author={Biggs, Benjamin and Boyne, Oliver and Charles, James and Fitzgibbon, Andrew and Cipolla, Roberto},
+  booktitle={ECCV},
+  year={2020}
+}
+```
+
+and the original authors of the SMAL animal model:
+```
+@inproceedings{Zuffi:CVPR:2017,
+  title = {{3D} Menagerie: Modeling the {3D} Shape and Pose of Animals},
+  author = {Zuffi, Silvia and Kanazawa, Angjoo and Jacobs, David and Black, Michael J.},
+  booktitle = {IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+  month = jul,
+  year = {2017},
+  month_numeric = {7}
+}
+```
+and we would also like to thanks the author of [SMALViewer](https://github.com/benjiebob/SMALViewer)
