@@ -1,0 +1,1 @@
+python main.py --batch_size 16 --output_dir exp/stage1_field --color --eval_freq 1 --cos --betas_scale

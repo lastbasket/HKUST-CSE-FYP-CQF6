@@ -1,0 +1,1 @@
+python main_vanilla_field.py --output_dir exp/vanilla_field --img_idx 10 --vis --nEpochs 60 --pretrained $PRE_TRAINED --local_feat --save_results

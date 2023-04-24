@@ -1,0 +1,1 @@
+python main_meshgraph.py --output_dir exp/stage3_wo_texture --eval_freq 10 --color --nEpochs 200 --lr 1e-5 --local_feat --w_arap 10000 --w_dice 1000 --w_dice_refine 100 --w_pose_limit_prior 5000 --resume $STAGE2_CHECKPOINT

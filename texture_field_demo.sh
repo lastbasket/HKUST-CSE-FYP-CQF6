@@ -1,0 +1,1 @@
+python neural_texture_field.py --output_dir exp/demo --vis --nEpochs 60 --pretrained $PRETRAINED --local_feat --save_checkpoint --input $INPUT

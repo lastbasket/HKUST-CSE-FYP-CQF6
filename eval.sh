@@ -1,0 +1,1 @@
+python eval.py --output_dir logs/test_new --resume /data1/yhuangdl/fyp/Coarse-to-fine-3D-Animal/logs/stage3/model_best.pth.tar --gpu_ids 0 --local_feat --save_results
