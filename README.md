@@ -7,6 +7,9 @@ HKUST CSE FYP CQF-6
 **Dependencies**
 1. Python 3.7.10
 2. Pytorch 1.9.0+cu111
+   ```
+   pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+   ```
 3. [neural_renderer](https://github.com/daniilidis-group/neural_renderer)
 
 
