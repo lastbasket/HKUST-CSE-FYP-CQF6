@@ -1,4 +1,4 @@
-# HKUST-CSE-FYP-CQF6
+<h1 align="center">HKUST-CSE-FYP-CQF6</h1>
 HKUST CSE 2023 final year project for end-to-end 3D dog reconstruction from single image.
 
 **About**
@@ -12,6 +12,8 @@ HKUST CSE FYP CQF-6
 
   <em>From left to right: original input, masked input, predicted segmentation, predicted 3D dog</em>
 </p>
+
+<h2 align="center"> <a href="images/fyp_final_report.pdf">Final Report</a> | <a href="images/CQF6_poster.pdf">Poster</a> </h2>
 
 **Dependencies**
 1. Python 3.7.10
